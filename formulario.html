@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MDHL</title>
-    <link rel="icon" href="./assets/favicon/favicon-32x32.png" type="png" sizes="favicon-32x32">
+    <link rel="icon" href="./assets/favicon/favicon-32x32.png" type="image/x-icon" sizes="32x32">
     <link rel="stylesheet" href="./style/style3.css">
 </head>
 
@@ -35,93 +35,93 @@
             <fieldset>
                 <legend>PLAYER'S</legend>
                 <label for="first-name">First Name:</label>
-                <input required type="text" name="first-name" id="first-name" />
+                <input required type="text" name="first-name" id="first-name">
                 <label for="last-name">Last Name:</label>
-                <input required type="text" name="last-name" id="last-name" />
+                <input required type="text" name="last-name" id="last-name">
             </fieldset>
             <fieldset>
-                <label for="street-address">Street Address:</label>
-                <input required type="text" name="street" id="street" />
+                <label for="street">Street Address:</label>
+                <input required type="text" name="street" id="street">
             </fieldset>
             <fieldset>
                 <label for="city">City:</label>
-                <select required name="nacionalidad" id="nacionalidad">
+                <select required name="nacionalidad" id="city">
                     <option value="" disabled selected>Nacionalidad</option>
                     <option value="Arg">Argentina</option>
                     <option value="Bolivia">Bolivia</option>
                     <option value="Chile">Chile</option>
                     <option value="Colombia">Colombia</option>
                 </select>
-                <label for="zip-code">Zip Code: <span style="color: red">*</span></label>
-                <input required type="number" name="zipcode" id="zipcode" min="1" max="9999"/>
+                <label for="zipcode">Zip Code: <span style="color: red">*</span></label>
+                <input required type="number" name="zipcode" id="zipcode" min="1" max="9999">
             </fieldset>
             <fieldset>
                 <label for="birth-date">Birth Date(mm/dd/yyyy):</label>
-                <input required type="date" name="birth-date" id="birth-date"/>
-                <label for="Gender">Gender:</label>
-                <input required type="radio" name="Gender" value="Female"/>
+                <input required type="date" name="birth-date" id="birth-date">
+                <label>Gender:</label>
+                <input required type="radio" name="Gender" value="Female">
                 <label>Female</label>
-                <input required type="radio" name="Gender" value="Male"/>
+                <input required type="radio" name="Gender" value="Male">
                 <label>Male</label>
             </fieldset>
             <fieldset>
-                <label class="subrayado">Grade<label>
+                <label class="subrayado">Grade</label>
             </fieldset>
             <fieldset>
-                <input checked type="radio" name="Grade" value="0" /><label>Pre-School</label>
-                <input required type="radio" name="Grade" value="1" /><label>1st</label>
-                <input required type="radio" name="Grade" value="2" /><label>2nd</label>
-                <input required type="radio" name="Grade" value="3" /><label>3rd</label>
-                <input required type="radio" name="Grade" value="4" /><label>4th</label>
-                <input required type="radio" name="Grade" value="5" /><label>5th</label>
+                <input checked type="radio" name="Grade" value="Pre-School"><label>Pre-School</label>
+                <input required type="radio" name="Grade" value="1"><label>1st</label>
+                <input required type="radio" name="Grade" value="2"><label>2nd</label>
+                <input required type="radio" name="Grade" value="3"><label>3rd</label>
+                <input required type="radio" name="Grade" value="4"><label>4th</label>
+                <input required type="radio" name="Grade" value="5"><label>5th</label>
             </fieldset>
             <fieldset>
                 <label class="subrayado">Which elementary school do you live near?</label>
             </fieldset>
             <fieldset>
-                <input required type="radio" name="school" value="AJ" />
-                <label>AJ Katzenmaier</sup>
-                    <input required type="radio" name="school" value="Greenbay" />
+                <input required type="radio" name="school" value="AJ">
+                <label>AJ Katzenmaier</label>
+                    <input required type="radio" name="school" value="Greenbay">
                     <label>Greenbay</label>
-                    <input required type="radio" name="school" value="Howard" />
+                    <input required type="radio" name="school" value="Howard">
                     <label>Howard A Yeager</label>
-                    <input required type="radio" name="school" value="Marjorie" />
+                    <input required type="radio" name="school" value="Marjorie">
                     <label>Marjorie P Hart</label>
-                    <input required type="radio" name="school" value="North" />
+                    <input required type="radio" name="school" value="North">
                     <label>North Elementary</label>
-                    <input required type="radio" name="school" value="South" />
+                    <input required type="radio" name="school" value="South">
                     <label>South Elementary</label>
             </fieldset>
             <fieldset>
                 <label class="subrayado">What position(s) do you normally play? (check all that apply)</label>
             </fieldset>
             <fieldset>
-                <input  type="checkbox" name="Forward" value="1" />
+                <input type="checkbox" name="Forward" value="1">
                 <label>Forward</label>
-                <input  type="checkbox" name="defense" value="2" />
+                <input type="checkbox" name="defense" value="2">
                 <label>Defense</label>
-                <input  type="checkbox" name="Midfield" value="3" />
+                <input type="checkbox" name="Midfield" value="3">
                 <label>Midfield</label>
-                <input  type="checkbox" name="Goalkeeper" value="4" />
+                <input type="checkbox" name="Goalkeeper" value="4">
                 <label>Goalkeeper</label>
             </fieldset>
             <fieldset>
                 <label class="subrayado">Uniform Size</label>
             </fieldset>
             <fieldset>
-                <input required type="radio" name="sizes" value="1" />
+                <input required type="radio" name="sizes" value="1">
                 <label>Youth Small</label>
-                <input required type="radio" name="sizes" value="2" />
+                <input required type="radio" name="sizes" value="2">
                 <label>Youth Medium</label>
-                <input required type="radio" name="sizes" value="3" />
+                <input required type="radio" name="sizes" value="3">
                 <label>Youth Large</label>
-                <input required type="radio" name="sizes" value="4" />
+                <input required type="radio" name="sizes" value="4">
                 <label>Small</label>
-                <input required type="radio" name="sizes" value="2" />
+                <input required type="radio" name="sizes" value="2">
                 <label>Medium</label>
-                <input required type="radio" name="sizes" value="3" />
+                <input required type="radio" name="sizes" value="3">
                 <label>Large</label>
-                <input required type="radio" name="sizes" value="4" />
+                <input required type="radio" name="sizes" value="4">
                 <label>Extra-Large</label>
             </fieldset>
             <br>
@@ -130,7 +130,7 @@
             </button>
         </form>
         <article id="permiso">
-            <p class="subrayado">Permission to Play</p>
+            <h3 class="subrayado">Permission to Play</h3>
             <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the
                 rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
                 associated with hockey and in consideration for the "League" accepting the registrant for its hockey
