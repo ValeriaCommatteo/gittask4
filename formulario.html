@@ -34,13 +34,13 @@
         <form action="./showdata.html" method="get">
             <fieldset>
                 <legend>PLAYER'S</legend>
-                <label for="first-name">First Name:</label>
+                <label for="first-name">First Name</label>
                 <input required type="text" name="first-name" id="first-name">
-                <label for="last-name">Last Name:</label>
+                <label for="last-name">Last Name</label>
                 <input required type="text" name="last-name" id="last-name">
             </fieldset>
             <fieldset>
-                <label for="street">Street Address:</label>
+                <label for="street">Street Address</label>
                 <input required type="text" name="street" id="street">
             </fieldset>
             <fieldset>
@@ -52,13 +52,13 @@
                     <option value="Chile">Chile</option>
                     <option value="Colombia">Colombia</option>
                 </select>
-                <label for="zipcode">Zip Code: <span style="color: red">*</span></label>
+                <label for="zipcode">Zip Code<span style="color: red">*</span></label>
                 <input required type="number" name="zipcode" id="zipcode" min="1" max="9999">
             </fieldset>
             <fieldset>
-                <label for="birth-date">Birth Date(mm/dd/yyyy):</label>
+                <label for="birth-date">Birth Date(mm/dd/yyyy)</label>
                 <input required type="date" name="birth-date" id="birth-date">
-                <label>Gender:</label>
+                <label>Gender</label>
                 <input required type="radio" name="Gender" value="Female">
                 <label>Female</label>
                 <input required type="radio" name="Gender" value="Male">
@@ -96,32 +96,32 @@
                 <label class="subrayado">What position(s) do you normally play? (check all that apply)</label>
             </fieldset>
             <fieldset>
-                <input type="checkbox" name="Forward" value="1">
+                <input required type="radio" name="position" value="Forward">
                 <label>Forward</label>
-                <input type="checkbox" name="defense" value="2">
+                <input required type="radio" name="position" value="defense">
                 <label>Defense</label>
-                <input type="checkbox" name="Midfield" value="3">
+                <input required type="radio" name="position" value="Midfield">
                 <label>Midfield</label>
-                <input type="checkbox" name="Goalkeeper" value="4">
+                <input required type="radio" name="position" value="Goalkeeper">
                 <label>Goalkeeper</label>
             </fieldset>
             <fieldset>
                 <label class="subrayado">Uniform Size</label>
             </fieldset>
             <fieldset>
-                <input required type="radio" name="sizes" value="1">
+                <input required type="radio" name="sizes" value="ys">
                 <label>Youth Small</label>
-                <input required type="radio" name="sizes" value="2">
+                <input required type="radio" name="sizes" value="ym">
                 <label>Youth Medium</label>
-                <input required type="radio" name="sizes" value="3">
+                <input required type="radio" name="sizes" value="yl">
                 <label>Youth Large</label>
-                <input required type="radio" name="sizes" value="4">
+                <input required type="radio" name="sizes" value="S">
                 <label>Small</label>
-                <input required type="radio" name="sizes" value="2">
+                <input required type="radio" name="sizes" value="m">
                 <label>Medium</label>
-                <input required type="radio" name="sizes" value="3">
-                <label>Large</label>
-                <input required type="radio" name="sizes" value="4">
+                <input required type="radio" name="sizes" value="l">
+                <label> Large </label>
+                <input required type="radio" name="sizes" value="xl">
                 <label>Extra-Large</label>
             </fieldset>
             <br>
